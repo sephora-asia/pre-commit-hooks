@@ -1,6 +1,6 @@
 -   id: commitlint
     name: Commit message linter (commitlint)
-    entry: commitlint
+    entry: commitlint --edit
     language: node
     always_run: true
     additional_dependencies: ['commitlint']
