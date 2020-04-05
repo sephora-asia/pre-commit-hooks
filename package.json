@@ -1,8 +1,4 @@
 {
   "name": "dummy_package",
-  "version": "0.0.1",
-  "dependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4"
-  }
+  "version": "0.0.1"
 }
