@@ -9,4 +9,3 @@
     entry: exec < /dev/tty && git-cz --hook || true
     language: node
     always_run: true
-    additional_dependencies: ['commitizen']
