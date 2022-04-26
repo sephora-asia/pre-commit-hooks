@@ -9,3 +9,9 @@
     entry: exec < /dev/tty && node_modules/.bin/git-cz --hook || true
     language: system
     always_run: true
+-   id: branchlint
+    name: Branch name linter (using commitlint)
+    entry: node ./utils/lint_branch_name.js
+    language: node
+    always_run: true
+    additional_dependencies: ['commitlint']
