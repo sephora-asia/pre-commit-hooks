@@ -1,7 +1,12 @@
 {
   "name": "dummy_package",
   "version": "0.0.1",
+  "scripts": {
+    "lint-branch-name": "node ./utils/lint_branch_name.js"
+  },
   "dependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "commitizen": "^4.1.2"
   }
 }
