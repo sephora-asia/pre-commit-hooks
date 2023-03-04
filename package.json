@@ -2,6 +2,6 @@
   "name": "dummy_package",
   "version": "0.0.1",
   "dependencies": {
-    "commitizen": "^4.1.2"
+    "commitizen": "^4.3.0"
   }
 }
